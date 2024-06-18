@@ -1,11 +1,11 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import footer from '../icons_assets/restaurant.jpg';
+import footer from '../icons_assets/logo.png';
 import './Footer.css'
 import { faFacebook, faInstagram, faPinterest, faTwitter } from "@fortawesome/free-brands-svg-icons"
 const Footer = () => {
     return (
-        <footer className="footer  py-6" style={{ backgroundColor: '#EDEFEE' }}>
+        <footer className="footer bg-primary  py-6" style={{ backgroundColor: '#EDEFEE' }}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-3 my-3 d-flex">
