@@ -1,0 +1,8 @@
+.testo-container{
+    height: 500px !important;
+}
+@media (max-width: 992px) {
+    .testo-container {
+        margin-bottom: 1.5rem;
+        }
+}

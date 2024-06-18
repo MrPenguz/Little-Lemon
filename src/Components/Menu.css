@@ -1,0 +1,42 @@
+@media (max-width: 992px) {
+    .button{
+        margin-top: -80px
+    }
+  
+
+
+
+}
+.cards{
+    width: 300px !important;
+}
+.cards img {
+    height: 180px;
+    border-radius: 10px 10px 0 0;
+    /* Add rounded corners */
+}
+
+
+@media (max-width: 768px) {
+    .cards img {
+        height: 100px !important;
+        
+        /* Smaller image height on mobile */
+    }
+
+    .card-body {
+        padding: 10px;
+        /* Reduce padding on mobile */
+    }
+
+.card-title{
+    height: 100 ;
+    
+}
+.content{
+    height: 100 !important;
+}
+}
+
+
+

@@ -1,0 +1,33 @@
+//Colors
+
+$primary : #F4CE14;
+$secondary: #495E57;
+$dark : #000;
+$body-color: black;
+
+// Navbar
+
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+
+// Buttons
+// $button-radius: 50px;
+// $button-padding-x: 30px;
+// $button-padding-y: 10px;
+
+// Spacing
+
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 6,
+    7: $spacer * 8,
+    8: $spacer * 12,
+    ) !default;
+@import '../node_modules/bootstrap/scss/bootstrap';
